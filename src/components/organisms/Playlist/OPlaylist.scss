@@ -1,0 +1,49 @@
+//--MOBILE 320PX--
+.section__MPlaylist {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffb271;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.section__playlist {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    background-color: #ffb271;
+    margin-bottom: 1rem;
+}
+
+//--TABLET 768PX--
+@media (min-width: 768px) {
+    .section__MPlaylist{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .section__playlist {
+        width: 80%;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+//--LAPTOP 1024PX--
+@media (min-width: 1024px) {
+    .section__playlist {
+        width: 85%; 
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+//--DESKTOP 1366PX--
+@media (min-width: 1366px){
+    .section__MPlaylist{
+        width: 100%;
+    }
+    .section__playlist {
+        width: 85%; 
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+}

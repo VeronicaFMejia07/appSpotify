@@ -1,0 +1,60 @@
+//FORMATTING STYLES TO THE BROWSER
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//--MOBILE 320PX--
+.link__login{
+    background-color:#ce9a89;
+    border-radius: 90px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    margin: 1rem;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.active{
+    text-decoration: none;
+    color: #ffb271;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.noActive{
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+//--TABLET 768PX--
+@media (min-width: 768px){
+    .link__login{
+        font-size: 2rem; 
+    }
+    .active, .noActive{
+        font-size: 1.5rem;
+    }
+}
+
+//--DESKTOP 1024PX--
+@media (min-width: 1024px){
+    .active, .noActive{
+        font-size: 2rem;
+    }
+}
+
+//--DESKTOP 1366PX--
+@media (min-width: 1366px){
+    .active, .noActive{
+        font-size: 1.5rem;
+    }
+}
+
+
