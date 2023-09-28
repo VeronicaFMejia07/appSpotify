@@ -9,7 +9,6 @@ $colorLink: #1db954;
     height: 45vh;
     background-color: #fff;
     border-radius: 1rem;
-    border: 2px solid black;
     overflow: hidden;
 
     &__figure {
@@ -54,7 +53,7 @@ $colorLink: #1db954;
 //--MOBILE 425PX--
 @media (min-width:425px) {
     .main {
-        height: 53vh;
+        height: fit-content;
 
         &__figure {
             height: 65%;
@@ -66,7 +65,6 @@ $colorLink: #1db954;
 @media (min-width:768px) {
     .main {
         width: 90%;
-        border: 2px solid black;
         
         &__figure {
             height: 55%;

@@ -46,8 +46,8 @@ const MPlaylist = ({ item }: Iprops) => {
         showConfirmButton: false,
         timer: 1500,
         timerProgressBar: true,
-        background: '#6c3430',
-        color: '#fff',
+        background: '#fe6c63',
+        color: '#000',
         didOpen: (toast) => {
           toast.addEventListener('mouseenter', Swal.stopTimer)
           toast.addEventListener('mouseleave', Swal.resumeTimer)
@@ -72,8 +72,8 @@ const MPlaylist = ({ item }: Iprops) => {
         showConfirmButton: false,
         timer: 1500,
         timerProgressBar: true,
-        background: '#6c3430',
-        color: '#fff',
+        background: '#fe6c63',
+        color: '#000',
         didOpen: (toast) => {
           toast.addEventListener('mouseenter', Swal.stopTimer)
           toast.addEventListener('mouseleave', Swal.resumeTimer)

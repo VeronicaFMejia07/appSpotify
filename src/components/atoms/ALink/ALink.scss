@@ -7,11 +7,10 @@
 
 //--MOBILE 320PX--
 .link__login{
-    background-color:#ce9a89;
     border-radius: 90px;
+    background-color: #fe6c63;
     color: #000;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 1.2rem;
     margin: 1rem;
     font-weight: bolder;
@@ -20,14 +19,14 @@
 
 .active{
     text-decoration: none;
-    color: #ffb271;
+    color: #d4f1db;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
 .noActive{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;

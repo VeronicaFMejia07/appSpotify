@@ -26,7 +26,6 @@ export const favoritesSlice= createSlice({
             newArray.favorites.items= newArray.favorites.items.filter(f=>f.track.id !==id)
         },
         setCreateFav:(state, action: PayloadAction<Item>)=>{
-            console.log(action.payload, "RECIBE")
             state.favorites.items.push(action.payload)
         },
     },

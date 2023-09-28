@@ -11,7 +11,7 @@ export const MLogin = () => {
     <section className='section__login'>
       <AIcon icon={faSpotify}/>
       <AName className={'title__spotify'} name='¡Bienvenido a Spotify!'/>
-      <ALink type='a' isIcon={false} name="Login" link={autorizeURL} />
+      <ALink type='a' isIcon={false} name="Iniciar sesión" link={autorizeURL} />
     </section>
   )
 }
